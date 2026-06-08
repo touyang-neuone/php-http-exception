@@ -1,0 +1,51 @@
+{
+    "name": "jtheuerkauf/php-http-exception",
+    "description": "A NON-PSR-7 library containing a set of RESTful HTTP exceptions that use a consistent interface.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Theuerkauf",
+            "email": "joe@theuerkauf.dev"
+        },
+        {
+            "name": "Fuzz Web",
+            "email": "opensource@fuzzproductions.com"
+        }
+    ],
+    "replace": {
+        "fuzz/http-exception": "1.0.4"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fuzz\\HttpException\\": "src/",
+            "Fuzz\\HttpException\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ],
+        "test-coverage": [
+            "vendor/bin/phpunit --coverage-html tests/coverage"
+        ]
+    },
+    "keywords": [
+        "error",
+        "exception",
+        "general",
+        "generic",
+        "http"
+    ]
+}
