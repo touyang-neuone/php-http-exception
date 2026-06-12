@@ -1,5 +1,5 @@
 {
-    "name": "jtheuerkauf/php-http-exception",
+    "name": "neuone/php-http-exception",
     "description": "A NON-PSR-7 library containing a set of RESTful HTTP exceptions that use a consistent interface.",
     "license": "MIT",
     "authors": [
